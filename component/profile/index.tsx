@@ -27,7 +27,6 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         <Col md={3} sm={12}>
           <ProfileImage src={image} />
         </Col>
-        
         <Col md={9} sm={12}>
           {createNameArea(name)}
           {createProfileContactMap(contact)}

@@ -10,7 +10,7 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Wonjoon Lddddssee',
+    title: 'Wonjoon Lee',
     small: '',
   },
   contact: [
@@ -20,8 +20,9 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: '010-9621-0310',
+      title: 'Please contact me by email',
       icon: faPhone,
+      badge: true,
     },
     {
       title: 'Github',
@@ -29,11 +30,22 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
-      title: '1994-03-10',
-      icon: faGithub,
+      title: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/wonjoon/',
+      icon: faLinkedin,
     },
+    {
+      title: 'Blog',
+      link: 'https://wnjoon.github.io',
+      icon: faBlogger,
+    },
+    // {
+    //   title: 'YouTube',
+    //   link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
+    //   // icon: faRss,
+    //   icon: faYoutube,
+    // },
   ],
-
   notice: {
     title: 'Focusing on rapidly growing industry 👨‍💻',
     // title: 'Status : Open to new opportunities and challenges 🙋‍♂️',

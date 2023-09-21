@@ -43,7 +43,6 @@ export const Style: Record<TStyleKey, CSSProperties> = {
     paddingRight: 0,
     marginTop: '50px',
     height: '80px',
-    width: '100px'
   },
 
   footer: {

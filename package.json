@@ -1,6 +1,6 @@
 {
-  "name": "jongkwon5.github.io",
-  "lastestUpdatedAt": "2023-06-10",
+  "name": "resume",
+  "lastestUpdatedAt": "2023-01-17",
   "version": "1.0.0",
   "description": "Wonjoon's resume. Made from yowu's masterpiece",
   "main": "index.js",
@@ -15,21 +15,20 @@
     "preexport": "npm run clean && npm run build",
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
-    "lint": "next lint",
-    "typedoc": "typedoc --excludeExternals",
-    "vercel-deploy": "next build && next export"
+    "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
+    "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://jongkwon5.github.io/jongkwon5.github.io",
+  "homepage": "https://wnjoon.github.io/resume",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jongkwon5/jongkwon5.github.io.git"
+    "url": "git+https://github.com/wnjoon/resume.git"
   },
   "keywords": [
     "resume",
     "next"
   ],
   "author": {
-    "name": "Wonjoon ddd",
+    "name": "Wonjoon Lee",
     "email": "wnjoon@gmail.com",
     "url": "https://wnjoon.github.io"
   },
@@ -79,7 +78,6 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.3",
     "eslint-plugin-react-hooks": "^2.5.1",
-    "gh-pages": "^6.0.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2",
     "typedoc": "^0.19.2",

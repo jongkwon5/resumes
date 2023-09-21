@@ -6,6 +6,4 @@ export default function ProfileImage({ src }: PropsWithChildren<{ src: string }>
       <img style={{ maxHeight: '320px' }} className="img-fluid rounded" src={src} alt="Profile" />
     </div>
   );
-
-  
 }
