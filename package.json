@@ -17,11 +17,10 @@
     "clean": "npx rimraf docs .next",
     "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
     "typedoc": "typedoc --excludeExternals",
-    "vercel" : "vercel dev",
-    "deploy": "vercel deploy"
+    "vercel" : "vercel dev"
   },
-  "homepage": "https://wnjoon.github.io/resume",
-  "repository": "git+https://github.com/wnjoon/resume.git",
+  "homepage": "https://wnjoon.github.io/rto",
+  "repository": "git+https://github.com/jongkwon5/rto.git",
   "keywords": [
     "resume",
     "next"
