@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env DEBUG=yosume:* next",
+    "dev": "next dev",
     "build": "next build",
     "prebuild": "npm install && npm run lint",
     "start": "next start",
@@ -15,8 +15,9 @@
     "preexport": "npm run clean && npm run build",
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
-    "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
-    "typedoc": "typedoc --excludeExternals"
+    "lint": "next lint",
+    "typedoc": "typedoc --excludeExternals",
+    "vercel-deploy": "next build && next export"
   },
   "homepage": "https://jongkwon5.github.io/jongkwon5.github.io",
   "repository": {
