@@ -15,7 +15,7 @@
     "preexport": "npm run clean && npm run build",
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
-    "lint": "eslint' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
+    "lint": "eslint",
     "typedoc": "typedoc --excludeExternals",
     "vercel" : "vercel dev"
   },
