@@ -4,7 +4,7 @@ import skill from './skill';
 import experience from './experience';
 import openSource from './openSource';
 import project from './project';
-import presentation from './presentation';
+import presentation from './Certification';
 import education from './education';
 import article from './article';
 import etc from './etc';
