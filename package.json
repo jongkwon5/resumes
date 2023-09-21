@@ -14,8 +14,6 @@
     "export": "cross-env NODE_ENV=production next export --outdir docs/",
     "preexport": "npm run clean && npm run build",
     "postexport": "node shellwork.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "clean": "npx rimraf docs .next",
     "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
     "typedoc": "typedoc --excludeExternals"
