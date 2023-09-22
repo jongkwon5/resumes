@@ -20,7 +20,7 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: 'Pddd',
       icon: faPhone,
       badge: true,
     },
@@ -47,7 +47,7 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title: 'Focusing on rapidly growing industry 👨‍💻',
+    title: 'asasasaasa 👨‍💻',
     // title: 'Status : Open to new opportunities and challenges 🙋‍♂️',
     // title: 'Status : 작성중입니다 🔧',
     icon: faBell,
