@@ -10,12 +10,12 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Wonjoon Leedasdd',
+    title: 'Wonjoon Leedasddasasd',
     small: '',
   },
   contact: [
     {
-      title: 'wnjoon@gmail.com',
+      title: 'wasdasdadsadada',
       link: 'mailto:wnjoon@gmail.com',
       icon: faEnvelope,
     },
