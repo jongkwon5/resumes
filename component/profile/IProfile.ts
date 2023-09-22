@@ -31,7 +31,7 @@ export declare namespace IProfile {
        * ### 공지 앞에 붙는 아이콘
        *
        * @type font-awesome type
-       * @see https://www.npmjs.com/package/@fortawesome/react-fontawesome
+       * @see
        */
       icon?: IconDefinition;
     };

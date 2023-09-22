@@ -80,16 +80,17 @@ function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
       <Col md={12} xs={isWorking ? 7 : 9}>
         <h4 style={Style.gray}>{periodTitle}</h4>
       </Col>
-      <Col md={12} xs={isWorking ? 5 : 3} className="text-md-right text-center">
-        {isWorking ? (
-          <Badge color="primary" className="mr-1">
-            재직 중
-          </Badge>
-        ) : (
-          ''
-        )}
-        <Badge color="info">{Util.getFormattingDuration(startedAt)}</Badge>
-      </Col>
     </Row>
   );
 }
+
+/* <Col md={12} xs={isWorking ? 5 : 3} className="text-md-right text-center">
+{isWorking ? (
+  <Badge color="primary" className="mr-1">
+    재직 중
+  </Badge>
+) : (
+  ''
+)}
+<Badge color="info">{Util.getFormattingDuration(startedAt)}</Badge>
+</Col>/ 뱃지 */

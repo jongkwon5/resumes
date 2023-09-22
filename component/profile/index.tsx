@@ -1,5 +1,4 @@
 import { Row, Col, Alert } from 'reactstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { PropsWithChildren } from 'react';
 import ProfileContact from './contact';
 import ProfileImage from './image';
@@ -64,8 +63,7 @@ function createProfileContactMap(contacts: Payload['contact']) {
 function createNoticeArea(notice: Payload['notice']) {
   return (
     <EmptyRowCol>
-      <Alert color="secondary" role="alert" className="mt-3">
-        {notice.icon ? <FontAwesomeIcon className="mr-2" icon={notice.icon} /> : ''}
+      <Alert color="secondary" role="alert" className="mt-2">
         {notice.title}
       </Alert>
     </EmptyRowCol>
