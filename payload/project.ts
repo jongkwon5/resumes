@@ -30,6 +30,7 @@ const project: IProject.Payload = {
         { content: 'Configure platform and blockchain node server monitoring tools' },
       ],
     },
+
     {
       title: 'ST platform construct project',
       startedAt: '2022-02',

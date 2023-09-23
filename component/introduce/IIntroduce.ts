@@ -14,7 +14,13 @@ export declare namespace IIntroduce {
      *
      * @description `string` 배열이다. 요소 하나가 하나의 `<p>` 태그가 된다.
      */
-    contents: string[];
+
+    top1: string;
+    top2: string;
+    top3: string;
+    content1: string;
+    content2: string;
+    content3: string;
 
     /**
      * ### 하단 싸인

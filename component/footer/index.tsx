@@ -15,10 +15,9 @@ function Component({ payload }: PropsWithChildren<{ payload: IFooter.Payload }>)
         <div style={Style.footer} className="text-center mt-4">
           <EmptyRowCol>
             <>
-              {payload.github}
-              박종권{' / '}
+              {payload.aa}
               {/* Github 주소는 origin repository 의 주소를 넣는다. */}
-              <HrefTargetBlank url="https://github.com/jongkwon5/rto" text="Resume" />
+              <HrefTargetBlank url="https://github.com/jongkwon5/resume" text="" />
             </>
           </EmptyRowCol>
         </div>

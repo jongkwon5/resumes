@@ -30,18 +30,23 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
           <h2 style={Style.blue}>INTRODUCE</h2>
         </Col>
         <Col sm={12} md={9}>
-          {payload.contents.map((content, index) => (
-            <p key={index.toString()}>{content}</p>
-          ))}
-          <p className="text-right">
-            <small>Latest Updated</small>{' '}
-            <Badge color="secondary">
-              {`${latestUpdated.toFormat(Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD)} `}
-            </Badge>
-          </p>
-          <p className="text-right" style={Style.sign}>
-            {payload.sign}
-          </p>
+          <div className="mt-2">
+            <h5>{payload.top1}</h5>
+            <p>{payload.content1}</p>
+            <h5> {payload.top2}</h5>
+            <p>{payload.content2}</p>
+            <h5> {payload.top3}</h5>
+            <p>{payload.content3}</p>
+            <p className="text-right">
+              <small>Latest Updated</small>{' '}
+              <Badge color="secondary">
+                {`${latestUpdated.toFormat(Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD)} `}
+              </Badge>
+            </p>
+            <p className="text-right" style={Style.sign}>
+              {payload.sign}
+            </p>
+          </div>
         </Col>
       </Row>
     </div>
