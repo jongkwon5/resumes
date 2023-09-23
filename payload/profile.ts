@@ -1,6 +1,6 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faBlogger, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -15,14 +15,13 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'jongkwong@naver.com',
-      link: 'mailto:wnjoon@gmail.com',
-      icon: faEnvelope,
-    },
-    {
       title: 'Github',
       link: 'https://github.com/jongkwon5',
       icon: faGithub,
+    },
+    {
+      title: 'jongkwong@naver.com',
+      icon: faEnvelope,
     },
     {
       title: '010-9621-0310',
@@ -30,7 +29,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: '1994-03-10',
-      icon: faBlogger,
+      icon: faCalendar,
     },
     // {
     //   title: 'YouTube',
@@ -40,7 +39,7 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title: 'asasandd',
+    title: '배움과 도전을 주저하지 않는, 개발자 박종권입니다.',
     // title: 'Status : Open to new opportunities and challenges 🙋‍♂️',
     // title: 'Status : 작성중입니다 🔧',
     icon: faBell,

@@ -1,73 +1,52 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const pl: ISkill.Skill = {
-  category: 'Programming Languages',
+  category: 'Back-end',
   items: [
     {
       title: 'Java',
     },
     {
-      title: 'Go',
-    },
-    {
-      title: 'C/C++',
+      title: 'Spring',
     },
   ],
 };
 
 const devops: ISkill.Skill = {
-  category: 'DevOps',
+  category: 'Front-end',
   items: [
     {
-      title: 'Docker',
+      title: 'Javascript',
     },
     {
-      title: 'Git',
+      title: 'HTML/CSS',
     },
   ],
 };
 
 const env: ISkill.Skill = {
-  category: 'Platform',
+  category: 'Database',
   items: [
     {
-      title: 'Hyperledger fabric',
-    },
-    {
-      title: 'Ethereum(Besu, Quorum)',
+      title: 'MySQL',
     },
   ],
 };
 
 const tool: ISkill.Skill = {
-  category: 'Tools',
+  category: 'Etc',
   items: [
     {
-      title: 'Vscode',
+      title: 'Git/Github',
+    },
+    {
+      title: 'VScode',
     },
     {
       title: 'Eclipse',
     },
     {
       title: 'IntelliJ',
-    },
-    {
-      title: 'Confluence',
-    },
-    {
-      title: 'Slack',
-    },
-    {
-      title: 'Vim',
-    },
-    {
-      title: 'Geth',
-    },
-    {
-      title: 'Truffle',
-    },
-    {
-      title: 'Hardhat',
     },
   ],
 };
