@@ -20,13 +20,13 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "https://jongkwon5.github.io/rto",
-  "repository": "git+https://github.com/jongkwon5/rto.git",
+  "homepage": "https://jongkwon5.github.io/resume",
+  "repository": "git+https://github.com/jongkwon5/resume.git",
   "keywords": [
     "resume",
     "next"
   ],
-  "author": "Wonjoon Lee <wnjoon@gmail.com> (https://wnjoon.github.io)",
+  "author": "Jongkwon Park <jongkwong@naver.com> (https://jongkwon5.github.io)",
   "contributors": [],
   "license": "MIT",
   "bugs": {
