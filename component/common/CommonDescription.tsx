@@ -135,6 +135,6 @@ const aaa: CSSProperties = {
   minWidth: '35rem',
   listStyle: 'none',
   marginLeft: '-1.2em',
-  border: '1px solid lightgrey',
+  border: '2px solid grey',
   marginBottom: '10px',
 };

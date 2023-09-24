@@ -1,6 +1,6 @@
 import { DateTime } from 'luxon';
 import { PropsWithChildren } from 'react';
-import { Row, Col, Badge } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import { IExperience } from './IExperience';
 import { Style } from '../common/Style';
 import Util from '../common/Util';
@@ -19,38 +19,9 @@ export default function ExperienceRow({
         <Col sm={12} md={9}>
           <h4>{item.title}</h4>
           <i style={Style.gray}>{item.position}</i>
-          <ul className="pt-3">
-            {item.descriptions.map((description, descIndex) => (
-              <li key={descIndex.toString()}>{description}</li>
-            ))}
-            {createSkillKeywords(item.skillKeywords)}
-          </ul>
         </Col>
       </Row>
     </div>
-  );
-}
-
-function createSkillKeywords(skillKeywords?: string[]) {
-  if (!skillKeywords) {
-    return '';
-  }
-  return (
-    <li>
-      <strong>Skill Keywords</strong>
-      <div>
-        {skillKeywords.map((keyword, index) => (
-          <Badge
-            style={Style.skillKeywordBadge}
-            key={index.toString()}
-            color="secondary"
-            className="mr-1"
-          >
-            {keyword}
-          </Badge>
-        ))}
-      </div>
-    </li>
   );
 }
 

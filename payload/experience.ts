@@ -8,7 +8,6 @@ const experience: IExperience.Payload = {
       position: 'JAVA기반 풀스택 개발자 취업과정',
       startedAt: '2023-02',
       endedAt: '2023-08',
-      descriptions: [],
     },
   ],
 };

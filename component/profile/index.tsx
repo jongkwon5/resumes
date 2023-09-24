@@ -51,7 +51,7 @@ function createNameArea(name: Payload['name']) {
 function createProfileContactMap(contacts: Payload['contact']) {
   return (
     <Row>
-      <Col className="pt-4">
+      <Col className="pt-3">
         {contacts.map((contact, index) => (
           <ProfileContact key={index.toString()} payload={contact} />
         ))}

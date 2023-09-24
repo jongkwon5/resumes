@@ -1,5 +1,4 @@
 import { ICommon } from '../common/ICommon';
-import { IRow } from '../common/IRow';
 
 export declare namespace IExperience {
   /**
@@ -45,7 +44,6 @@ export declare namespace IExperience {
      * @todo `IRow.Description[]` 으로 변경
      */
 
-    descriptions: IRow.Description[];
     /**
      * ### (직장)경험의 키워드
      *
