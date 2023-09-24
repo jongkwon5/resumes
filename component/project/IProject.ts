@@ -29,6 +29,7 @@ export declare namespace IProject {
      */
     startedAt: string;
 
+    href?: string;
     /**
      * ### 프로젝트 종료일
      *
@@ -42,5 +43,7 @@ export declare namespace IProject {
      * ### 프로젝트 설명
      */
     descriptions: IRow.Description[];
+
+    img?: string;
   }
 }

@@ -1,3 +1,5 @@
+import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
+
 export declare namespace IRow {
   export interface Payload {
     left: Left;
@@ -13,6 +15,7 @@ export declare namespace IRow {
     title?: string;
     subTitle?: string;
     descriptions?: Description[];
+    img?: string;
   }
 
   /**
@@ -58,6 +61,8 @@ export declare namespace IRow {
      */
     postHref?: string;
 
+    img?: string;
+
     /**
      * ### Depth 가 하나 더 들어가는 Description
      *
@@ -66,6 +71,8 @@ export declare namespace IRow {
     descriptions?: Description[];
 
     skillKeywords?: string[];
+
+    icon?: IconDefinition;
   }
 
   export type FontWeightType = 'DEFAULT' | 'LIGHT' | 'REGULAR' | 'MEDIUM' | 'BOLD';

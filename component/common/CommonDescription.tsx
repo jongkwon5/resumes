@@ -94,8 +94,8 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
     }
     if (postImage) {
       return (
-        <li style={getFontWeight(weight)}>
-          {content} <img src={postImage} alt={postImage} />
+        <li style={imgStyle}>
+          <img src={postImage} alt={postImage} style={aaa} />
         </li>
       );
     }
@@ -123,4 +123,18 @@ const fontWeight: Record<IRow.FontWeightType, number> = {
   MEDIUM: 500,
   // BOLD: 700,
   BOLD: 500,
+};
+const imgStyle: CSSProperties = {
+  maxHeight: '20rem',
+  minWidth: '36rem',
+  listStyle: 'none',
+  marginLeft: '-1.2em',
+};
+const aaa: CSSProperties = {
+  maxHeight: '18em',
+  minWidth: '35rem',
+  listStyle: 'none',
+  marginLeft: '-1.2em',
+  border: '1px solid lightgrey',
+  marginBottom: '10px',
 };
