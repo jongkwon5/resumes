@@ -1,4 +1,4 @@
-import { faCalendar, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faEnvelope, faHouseUser, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/profile.jpg';
@@ -26,6 +26,10 @@ const profile: IProfile.Payload = {
     {
       title: '010-9621-0310',
       icon: faPhone,
+    },
+    {
+      title: '서울시 구로구',
+      icon: faHouseUser,
     },
     {
       title: '1994-03-10',

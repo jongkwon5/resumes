@@ -48,6 +48,9 @@ const tool: ISkill.Skill = {
     {
       title: 'IntelliJ',
     },
+    {
+      title: 'Tomcat',
+    },
   ],
 };
 

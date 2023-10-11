@@ -15,7 +15,7 @@ const project: IProject.Payload = {
             'https://user-images.githubusercontent.com/137694287/270161882-fb6fe059-d30f-4ef0-9686-b182197688f7.gif',
         },
         {
-          content: '담당 : 메인 페이지 / 채팅방 목록 & 실시간 채팅 풀스택 개발',
+          content: '[담당 : 메인 페이지 / 채팅방 목록 & 실시간 채팅 풀스택 개발]',
           weight: 'MEDIUM',
         },
         {
@@ -23,12 +23,15 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
+          content:
+            'HTML/CSS, JS(Swiper API)를 활용한 메인 페이지, 채팅방 목록, 채팅 페이지 UI/UX 구현',
+        },
+        {
           content: '실시간 알림, 귓속말 기능, 비밀번호 방 생성 등 채팅 비즈니스 로직 구현',
         },
         {
           content: 'MyBatis를 활용한 채팅방 목록 CRUD 구현',
         },
-        { content: 'HTML, CSS, JS를 활용한 메인 페이지, 채팅방 목록, 채팅 페이지 UI/UX 구현' },
         {
           content: 'https://github.com/jongkwon5/TT',
           href: 'https://github.com/jongkwon5/TT',
@@ -56,11 +59,12 @@ const project: IProject.Payload = {
           content: '회사 소개, 아티스트 소개, 게시판, 오디션 지원 페이지 등 풀스택 개발',
           weight: 'MEDIUM',
         },
-        { content: 'HTML, CSS, JS를 활용한 UI/UX 구현' },
+        { content: 'HTML/CSS, JS(Swiper API), Bootstrap,  Kakao 지도 API를 활용한 UI/UX 구현' },
+        {
+          content: 'MyBatis를 활용한 게시판 CRUD 구현 및 Ajax를 통한 게시판 댓글 비동기 처리 구현',
+        },
         { content: 'SessionLocaleResolver를 활용한 다국어 처리 구현' },
         { content: 'Spring MVC Model2 Pattern 기반 설계' },
-        { content: 'MyBatis를 활용한 게시판 CRUD 구현' },
-        { content: 'Ajax를 통한 게시판 댓글 비동기 처리 구현' },
         {
           content: 'https://github.com/jongkwon5/Entertainment',
           href: 'https://github.com/jongkwon5/Entertainment',
