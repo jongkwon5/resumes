@@ -16,7 +16,7 @@ const devops: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Javascript',
+      title: 'JavaScript',
     },
     {
       title: 'HTML/CSS',

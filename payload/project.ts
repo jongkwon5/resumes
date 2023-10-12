@@ -24,7 +24,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'HTML/CSS, JS(Swiper API)를 활용한 메인 페이지, 채팅방 목록, 채팅 페이지 UI/UX 구현',
+            'HTML/CSS, JavaScript(Swiper API)를 활용한 메인 페이지, 채팅방 목록, 채팅 페이지 UI/UX 구현',
         },
         {
           content: '실시간 알림, 귓속말 기능, 비밀번호 방 생성 등 채팅 비즈니스 로직 구현',
@@ -39,7 +39,7 @@ const project: IProject.Payload = {
         {
           content: '[Skill Keywords]',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Java, Spring Legacy, MySQL, Javascript' }],
+          descriptions: [{ content: 'Java, Spring Legacy, MySQL, JavaScript' }],
         },
       ],
     },
@@ -59,7 +59,10 @@ const project: IProject.Payload = {
           content: '회사 소개, 아티스트 소개, 게시판, 오디션 지원 페이지 등 풀스택 개발',
           weight: 'MEDIUM',
         },
-        { content: 'HTML/CSS, JS(Swiper API), Bootstrap,  Kakao 지도 API를 활용한 UI/UX 구현' },
+        {
+          content:
+            'HTML/CSS, JavaScript(Swiper API), Bootstrap, Kakao 지도 API를 활용한 UI/UX 구현',
+        },
         {
           content: 'MyBatis를 활용한 게시판 CRUD 구현 및 Ajax를 통한 게시판 댓글 비동기 처리 구현',
         },
@@ -72,7 +75,7 @@ const project: IProject.Payload = {
         {
           content: '[Skill Keywords]',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Java, Spring Legacy, MySQL, Javascript' }],
+          descriptions: [{ content: 'Java, Spring Legacy, MySQL, JavaScript' }],
         },
       ],
     },
