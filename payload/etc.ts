@@ -6,7 +6,7 @@ const etc: IEtc.Payload = {
   list: [
     {
       title: '육군 병장 만기전역',
-      startedAt: '2016-04-14',
+      startedAt: '16-04-14',
     },
   ],
 };

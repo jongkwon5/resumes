@@ -5,8 +5,8 @@ const project: IProject.Payload = {
   list: [
     {
       title: '지역 축제 소개를 토대로 여행 파트너를 구할 수 있는 서비스 - TT',
-      startedAt: '2023-07-25',
-      endedAt: '2023-09-03',
+      startedAt: '23-07-25',
+      endedAt: '23-09-03',
       where: '[5인 팀 프로젝트]',
       descriptions: [
         {
@@ -46,8 +46,8 @@ const project: IProject.Payload = {
 
     {
       title: '가상의 Entertainment Company',
-      startedAt: '2023-06-07',
-      endedAt: '2023-07-10',
+      startedAt: '23-06-07',
+      endedAt: '23-07-10',
       where: '[개인 프로젝트]',
       descriptions: [
         {

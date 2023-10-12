@@ -27,20 +27,20 @@ export default function ExperienceRow({
 
 function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
   const DATE_FORMAT = Util.LUXON_DATE_FORMAT;
-  const startedAt = DateTime.fromFormat(startedAtString, DATE_FORMAT.YYYY_LL_DD);
+  const startedAt = DateTime.fromFormat(startedAtString, DATE_FORMAT.YY_LL_DD);
 
   const { periodTitle, isWorking } = (() => {
     if (!endedAtString) {
       return {
-        periodTitle: `${startedAt.toFormat(DATE_FORMAT.YYYY_DOT_LL_DOT_DD)} ~`,
+        periodTitle: `${startedAt.toFormat(DATE_FORMAT.YY_DOT_LL_DOT_DD)} ~`,
         isWorking: true,
       };
     }
 
-    const _endedAt = DateTime.fromFormat(endedAtString, DATE_FORMAT.YYYY_LL_DD);
+    const _endedAt = DateTime.fromFormat(endedAtString, DATE_FORMAT.YY_LL_DD);
     return {
-      periodTitle: `${startedAt.toFormat(DATE_FORMAT.YYYY_DOT_LL_DOT_DD)} ~ ${_endedAt.toFormat(
-        DATE_FORMAT.YYYY_DOT_LL_DOT_DD,
+      periodTitle: `${startedAt.toFormat(DATE_FORMAT.YY_DOT_LL_DOT_DD)} ~ ${_endedAt.toFormat(
+        DATE_FORMAT.YY_DOT_LL_DOT_DD,
       )}`,
       isWorking: false,
     };

@@ -7,14 +7,14 @@ const education: IEducation.Payload = {
     {
       title: '건국대학교 교육대학원 음악교육전공(석사)',
       subTitle: '졸업 학점 (4.2 / 4.5)',
-      startedAt: '2020-03-01',
-      endedAt: '2022-08-22',
+      startedAt: '20-03-01',
+      endedAt: '22-08-22',
     },
     {
       title: '청운대학교 실용음악과(학사)',
       subTitle: '졸업 학점 (3.49 / 4.5)',
-      startedAt: '2013-02-27',
-      endedAt: '2019-02-13',
+      startedAt: '13-02-27',
+      endedAt: '19-02-13',
     },
   ],
 };
