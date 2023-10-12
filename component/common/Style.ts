@@ -25,7 +25,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
 
   gray: {
     color: 'gray',
-    fontSize: '1.26em',
+    fontSize: '1.21em',
   },
 
   global: {
@@ -33,7 +33,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
     fontWeight: 350,
     wordWrap: 'break-word',
     wordBreak: 'keep-all',
-    lineHeight: 1.8,
+    lineHeight: 1.9,
   },
 
   sign: {

@@ -5,8 +5,9 @@ import { DateTime } from 'luxon';
 enum LUXON_DATE_FORMAT {
   YYYY_LL_DD = 'yyyy-LL-dd',
   YYYY_LL = 'yyyy-LL',
+  YY_DOT_LL_DOT_DD = 'yy. MM. dd',
   YYYY_DOT_LL = 'yyyy. LL',
-  YYYY_DOT_LL_DOT_DD = 'yyyy. LL. dd',
+  YYYY_DOT_LL_DOT_DD = 'yyyy. LL. dd.',
   KINDNESS_FULL = 'DDDD',
 
   DURATION_KINDNESS = 'y년 M개월',

@@ -32,7 +32,7 @@ const profile: IProfile.Payload = {
       icon: faHouseUser,
     },
     {
-      title: '1994-03-10',
+      title: '1994. 03. 10.',
       icon: faCalendar,
     },
 

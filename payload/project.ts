@@ -5,8 +5,8 @@ const project: IProject.Payload = {
   list: [
     {
       title: '지역 축제 소개를 토대로 여행 파트너를 구할 수 있는 서비스 - TT',
-      startedAt: '2023-07',
-      endedAt: '2023-08',
+      startedAt: '2023-07-25',
+      endedAt: '2023-09-03',
       where: '[5인 팀 프로젝트]',
       descriptions: [
         {
@@ -27,7 +27,7 @@ const project: IProject.Payload = {
             'HTML/CSS, JavaScript(Swiper API)를 활용한 메인 페이지, 채팅방 목록, 채팅 페이지 UI/UX 구현',
         },
         {
-          content: '실시간 알림, 귓속말 기능, 비밀번호 방 생성 등 채팅 비즈니스 로직 구현',
+          content: '사용자 입/퇴장 실시간 알림, 귓속말, 비공개 방 생성 등 채팅 비즈니스 로직 구현',
         },
         {
           content: 'MyBatis를 활용한 채팅방 목록 CRUD 구현',
@@ -46,8 +46,8 @@ const project: IProject.Payload = {
 
     {
       title: '가상의 Entertainment Company',
-      startedAt: '2023-06',
-      endedAt: '2023-07',
+      startedAt: '2023-06-07',
+      endedAt: '2023-07-10',
       where: '[개인 프로젝트]',
       descriptions: [
         {
@@ -64,7 +64,11 @@ const project: IProject.Payload = {
             'HTML/CSS, JavaScript(Swiper API), Bootstrap, Kakao 지도 API를 활용한 UI/UX 구현',
         },
         {
-          content: 'MyBatis를 활용한 게시판 CRUD 구현 및 Ajax를 통한 게시판 댓글 비동기 처리 구현',
+          content: 'MyBatis를 활용한 게시판 CRUD 구현 및 AJAX를 통한 게시판 댓글 비동기 처리 구현',
+        },
+        {
+          content:
+            '세션 기반의 로그인, 회원가입 기능 및 아이디 중복 확인 등에 대한 유효성 검사 구현',
         },
         { content: 'SessionLocaleResolver를 활용한 다국어 처리 구현' },
         { content: 'Spring MVC Model2 Pattern 기반 설계' },

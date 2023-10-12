@@ -7,17 +7,27 @@ const presentation: IPresentation.Payload = {
     {
       title: '정보처리기사',
       subTitle: '한국산업인력공단',
-      at: '2023-09',
+      at: '2023-09-01',
     },
     {
       title: 'SQL 개발자(SQLD) ',
       subTitle: '한국데이터베이스진흥센터',
-      at: '2023-07',
+      at: '2023-07-07',
     },
     {
       title: 'ITQ 마스터',
       subTitle: 'KPC한국생산성본부',
-      at: '2007-02',
+      at: '2012-03-30',
+    },
+    {
+      title: '컴퓨터활용능력 2급',
+      subTitle: '대한상공회의소',
+      at: '2006-08-08',
+    },
+    {
+      title: '워드프로세서 1급',
+      subTitle: '대한상공회의소',
+      at: '2004-12-17',
     },
   ],
 };

@@ -6,8 +6,8 @@ const experience: IExperience.Payload = {
     {
       title: '중앙정보처리학원',
       position: 'JAVA기반 풀스택 개발자 취업과정',
-      startedAt: '2023-02',
-      endedAt: '2023-08',
+      startedAt: '2023-02-21',
+      endedAt: '2023-08-30',
     },
   ],
 };
