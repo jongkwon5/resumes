@@ -15,9 +15,9 @@ const presentation: IPresentation.Payload = {
       at: '23-07-07',
     },
     {
-      title: 'ITQ 마스터',
+      title: 'ITQ OA Master',
       subTitle: 'KPC한국생산성본부',
-      at: '12-03-30',
+      at: '07-02-15',
     },
     {
       title: '컴퓨터활용능력 2급',
