@@ -22,7 +22,7 @@ function serialize(item: IPresentation.Item): IRow.Payload {
   return {
     left: {
       title: DateTime.fromFormat(item.at, Util.LUXON_DATE_FORMAT.YY_LL_DD).toFormat(
-        Util.LUXON_DATE_FORMAT.YY_DOT_LL_DOT_DD,
+        Util.LUXON_DATE_FORMAT.YYYY_DOT_LL,
       ),
     },
     right: {

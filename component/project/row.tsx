@@ -19,13 +19,13 @@ export default function ProjectRow({ payload }: PropsWithChildren<{ payload: IPr
 function serialize(payload: IProject.Item): IRow.Payload {
   const DATE_FORMAT = Util.LUXON_DATE_FORMAT;
   const startedAt = DateTime.fromFormat(payload.startedAt, DATE_FORMAT.YY_LL_DD).toFormat(
-    DATE_FORMAT.YY_DOT_LL_DOT_DD,
+    DATE_FORMAT.YYYY_DOT_LL,
   );
 
   const title = (() => {
     if (payload.endedAt) {
       const endedAt = DateTime.fromFormat(payload.endedAt, DATE_FORMAT.YY_LL_DD).toFormat(
-        DATE_FORMAT.YY_DOT_LL_DOT_DD,
+        DATE_FORMAT.YYYY_DOT_LL,
       );
       return `${startedAt} ~ ${endedAt}`;
     }

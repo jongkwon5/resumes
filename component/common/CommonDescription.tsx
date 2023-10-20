@@ -126,15 +126,16 @@ const fontWeight: Record<IRow.FontWeightType, number> = {
 };
 const imgStyle: CSSProperties = {
   maxHeight: '20rem',
-  minWidth: '36rem',
+  minWidth: '38rem',
   listStyle: 'none',
   marginLeft: '-1.2em',
 };
 const aaa: CSSProperties = {
-  maxHeight: '18em',
-  minWidth: '35rem',
+  maxHeight: '19em',
+  minWidth: '36rem',
   listStyle: 'none',
   marginLeft: '-1.2em',
   border: '2px solid grey',
-  marginBottom: '10px',
+  marginBottom: '13px',
+  marginTop: '2px',
 };

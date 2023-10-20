@@ -20,7 +20,6 @@ const project: IProject.Payload = {
         },
         {
           content: 'Spring WebSocket API를 활용한 실시간 양방향 통신 채팅 서비스 구현',
-          weight: 'MEDIUM',
         },
         {
           content:
@@ -56,7 +55,7 @@ const project: IProject.Payload = {
             'https://user-images.githubusercontent.com/137694287/270162201-967fc049-04ba-41c9-b871-0c795b8911d4.gif',
         },
         {
-          content: '회사 소개, 아티스트 소개, 게시판, 오디션 지원 페이지 등 풀스택 개발',
+          content: '[회사 소개, 아티스트 소개, 게시판, 오디션 지원 페이지 등 풀스택 개발]',
           weight: 'MEDIUM',
         },
         {
@@ -71,7 +70,7 @@ const project: IProject.Payload = {
             '세션 기반의 로그인, 회원가입 기능 및 아이디 중복 확인 등에 대한 유효성 검사 구현',
         },
         { content: 'SessionLocaleResolver를 활용한 다국어 처리 구현' },
-        { content: 'Spring MVC Model2 Pattern 기반 설계' },
+        { content: 'Spring MVC Model2 기반 설계' },
         {
           content: 'https://github.com/jongkwon5/Entertainment',
           href: 'https://github.com/jongkwon5/Entertainment',

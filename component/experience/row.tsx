@@ -32,15 +32,15 @@ function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
   const { periodTitle, isWorking } = (() => {
     if (!endedAtString) {
       return {
-        periodTitle: `${startedAt.toFormat(DATE_FORMAT.YY_DOT_LL_DOT_DD)} ~`,
+        periodTitle: `${startedAt.toFormat(DATE_FORMAT.YYYY_DOT_LL)} ~`,
         isWorking: true,
       };
     }
 
     const _endedAt = DateTime.fromFormat(endedAtString, DATE_FORMAT.YY_LL_DD);
     return {
-      periodTitle: `${startedAt.toFormat(DATE_FORMAT.YY_DOT_LL_DOT_DD)} ~ ${_endedAt.toFormat(
-        DATE_FORMAT.YY_DOT_LL_DOT_DD,
+      periodTitle: `${startedAt.toFormat(DATE_FORMAT.YYYY_DOT_LL)} ~ ${_endedAt.toFormat(
+        DATE_FORMAT.YYYY_DOT_LL,
       )}`,
       isWorking: false,
     };
