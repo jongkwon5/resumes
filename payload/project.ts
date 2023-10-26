@@ -19,7 +19,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
-          content: 'Spring WebSocket API를 활용한 실시간 양방향 통신 채팅 서비스 구현',
+          content: 'Spring WebSocket을 활용한 실시간 양방향 통신 채팅 서비스 구현',
         },
         {
           content:
