@@ -38,7 +38,7 @@ const project: IProject.Payload = {
         {
           content: '[Skill Keywords]',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Java, Spring Legacy, MySQL, JavaScript' }],
+          descriptions: [{ content: 'Java, Spring, MySQL, JavaScript' }],
         },
       ],
     },
@@ -59,8 +59,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
-          content:
-            'HTML/CSS, JavaScript(Swiper API), Bootstrap, Kakao 지도 API를 활용한 UI/UX 구현',
+          content: 'HTML/CSS, Swiper API, Kakao 지도 API, fullPage.js를 활용한 UI/UX 구현',
         },
         {
           content: 'MyBatis를 활용한 게시판 CRUD 구현 및 AJAX를 통한 게시판 댓글 비동기 처리 구현',
@@ -69,7 +68,6 @@ const project: IProject.Payload = {
           content:
             '세션 기반의 로그인, 회원가입 기능 및 아이디 중복 확인 등에 대한 유효성 검사 구현',
         },
-        { content: 'SessionLocaleResolver를 활용한 다국어 처리 구현' },
         { content: 'Spring MVC Model2 기반 설계' },
         {
           content: 'https://github.com/jongkwon5/Entertainment',
@@ -78,7 +76,7 @@ const project: IProject.Payload = {
         {
           content: '[Skill Keywords]',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Java, Spring Legacy, MySQL, JavaScript' }],
+          descriptions: [{ content: 'Java, Spring, MySQL, JavaScript' }],
         },
       ],
     },
