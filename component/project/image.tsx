@@ -2,7 +2,8 @@ import { PropsWithChildren, CSSProperties } from 'react';
 
 const imgStyle: CSSProperties = {
   maxHeight: '320px',
-  minWidth: '500px',
+  maxWidth: '100px',
+  minWidth: '100px',
   textAlign: 'center',
 };
 

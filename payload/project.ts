@@ -19,26 +19,53 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
-          content: 'Spring WebSocket을 활용한 실시간 양방향 통신 채팅 서비스 구현',
+          content: '실시간 채팅 서비스 구현',
+          descriptions: [
+            {
+              content:
+                'Spring WebSocket 기술을 활용해 실시간 양방향 통신을 구현하여 사용자는 채팅을 통해 실시간으로 상호작용이 가능하며, 사용자 입/퇴장 실시간 알림, 귓속말, 비공개 방 생성 등 다양한 기능을 사용할 수 있습니다.',
+            },
+          ],
         },
         {
-          content:
-            'HTML/CSS, JavaScript(Swiper API)를 활용한 메인 페이지, 채팅방 목록, 채팅 페이지 UI/UX 구현',
+          content: '웹 페이지 UI/UX 디자인 구현',
+          descriptions: [
+            {
+              content:
+                'HTML/CSS 및 JavaScript를 사용하여 메인 페이지 및 채팅방 목록 페이지를 구현하였습니다.',
+            },
+            {
+              content:
+                'Swiper API를 활용하여 메인 페이지에 이미지 슬라이드쇼를 구현하여 시각적으로 다양한 환경을 구현하였습니다.',
+            },
+          ],
         },
         {
-          content: '사용자 입/퇴장 실시간 알림, 귓속말, 비공개 방 생성 등 채팅 비즈니스 로직 구현',
+          content: '채팅 비즈니스 로직 개발',
+          descriptions: [
+            {
+              content:
+                '사용자 입/퇴장 실시간 알림, 귓속말, 비공개 방 생성 등의 채팅 비즈니스 로직을 구현하였습니다. 실시간으로 사용자가 입장하거나 퇴장할 때 알림을 제공하며, 사용자는 귓속말을 통해 다른 사용자에게 개인 메시지를 보낼 수 있으며, 공개/비공개 채팅방을 선택할 수 있습니다.',
+            },
+          ],
         },
         {
-          content: 'MyBatis를 활용한 채팅방 목록 CRUD 구현',
-        },
-        {
-          content: 'https://github.com/jongkwon5/TT',
-          href: 'https://github.com/jongkwon5/TT',
+          content: '데이터베이스 연동 및 관리',
+          descriptions: [
+            {
+              content:
+                'MyBatis를 활용하여 채팅방 목록 CRUD를 구현하였으며, MySQL를 통해 채팅방 정보를 저장 및 관리하였습니다.',
+            },
+          ],
         },
         {
           content: '[Skill Keywords]',
           weight: 'MEDIUM',
           descriptions: [{ content: 'Java, Spring, MySQL, JavaScript' }],
+        },
+        {
+          content: 'Github : https://github.com/jongkwon5/TT',
+          href: 'https://github.com/jongkwon5/TT',
         },
       ],
     },
@@ -59,24 +86,56 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
-          content: 'HTML/CSS, Swiper API, Kakao 지도 API, fullPage.js를 활용한 UI/UX 구현',
+          content: '웹 페이지 UI/UX 디자인 구현',
+          descriptions: [
+            {
+              content:
+                'HTML/CSS, JavaScript, Bootstrap를 활용하여 메인 페이지, 회사 소개, 게시판, 아티스트 소개, 로그인/회원가입 페이지를 구현하였습니다.',
+            },
+            {
+              content:
+                'Swiper API, Kakao 지도 API, fullPage.js를 사용하여 웹 페이지의 시각적 효과를 향상하였습니다.',
+            },
+          ],
         },
         {
-          content: 'MyBatis를 활용한 게시판 CRUD 구현 및 AJAX를 통한 게시판 댓글 비동기 처리 구현',
+          content: '게시판 구현',
+          descriptions: [
+            {
+              content:
+                'MyBatis를 활용하여 게시판 CRUD 및 페이징 기능을 구현하였으며, MySQL를 통해 게시글 정보를 저장 및 관리하였습니다.',
+            },
+            {
+              content: 'AJAX를 활용하여 댓글 수정 및 삭제를 비동기 방식으로 구현하였습니다.',
+            },
+          ],
         },
         {
-          content:
-            '세션 기반의 로그인, 회원가입 기능 및 아이디 중복 확인 등에 대한 유효성 검사 구현',
+          content: '인증 및 사용자 관리',
+          descriptions: [
+            {
+              content:
+                '로그인 및 회원가입은 세션을 기반으로 하여 구현하였습니다. 더불어, 아이디 중복 검사 등의 유효성 검사를 적용하였으며, 이를 AJAX를 통해 실시간으로 확인 가능하게 구현하였습니다.',
+            },
+          ],
         },
-        { content: 'Spring MVC Model2 기반 설계' },
         {
-          content: 'https://github.com/jongkwon5/Entertainment',
-          href: 'https://github.com/jongkwon5/Entertainment',
+          content: '설계 아키텍처 ',
+          descriptions: [
+            {
+              content:
+                'Spring MVC Model2 아키텍처를 기반으로 설계되었으며, MVC 패턴을 준수하여 구현하였습니다.',
+            },
+          ],
         },
         {
           content: '[Skill Keywords]',
           weight: 'MEDIUM',
           descriptions: [{ content: 'Java, Spring, MySQL, JavaScript' }],
+        },
+        {
+          content: 'Github : https://github.com/jongkwon5/Entertainment',
+          href: 'https://github.com/jongkwon5/Entertainment',
         },
       ],
     },

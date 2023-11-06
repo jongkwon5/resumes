@@ -131,11 +131,11 @@ const imgStyle: CSSProperties = {
   marginLeft: '-1.2em',
 };
 const aaa: CSSProperties = {
-  maxHeight: '19em',
-  minWidth: '36rem',
+  maxHeight: '19.4rem',
+  minWidth: '40rem',
   listStyle: 'none',
   marginLeft: '-1.2em',
   border: '2px solid grey',
-  marginBottom: '13px',
+  marginBottom: '26rem',
   marginTop: '2px',
 };
