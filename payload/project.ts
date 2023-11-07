@@ -12,7 +12,7 @@ const project: IProject.Payload = {
         {
           content: '',
           postImage:
-            'https://user-images.githubusercontent.com/137694287/270161882-fb6fe059-d30f-4ef0-9686-b182197688f7.gif',
+            'https://user-images.githubusercontent.com/137694287/274751989-89d277e0-a918-4be8-9790-0a06d1929184.gif',
         },
         {
           content: '[담당 : 메인 페이지 / 채팅방 목록 & 실시간 채팅 풀스택 개발]',
