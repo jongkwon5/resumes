@@ -7,7 +7,7 @@ const project: IProject.Payload = {
       title: '지역 축제 소개를 토대로 여행 파트너를 구할 수 있는 서비스 - TT',
       startedAt: '23-07-25',
       endedAt: '23-09-03',
-      where: '[5인 팀 프로젝트]',
+      where: '5인 팀 프로젝트 [담당 : 메인 페이지/채팅방 목록/실시간 채팅 풀스택 개발]',
       descriptions: [
         {
           content: '',
@@ -15,11 +15,8 @@ const project: IProject.Payload = {
             'https://user-images.githubusercontent.com/137694287/274751989-89d277e0-a918-4be8-9790-0a06d1929184.gif',
         },
         {
-          content: '[담당 역할 : 메인 페이지 / 채팅방 목록 / 실시간 채팅 풀스택 개발]',
-          weight: 'MEDIUM',
-        },
-        {
           content: '실시간 채팅 서비스 구현',
+          weight: 'MEDIUM',
           descriptions: [
             {
               content:
@@ -29,6 +26,7 @@ const project: IProject.Payload = {
         },
         {
           content: '웹 페이지 UI/UX 디자인 구현',
+          weight: 'MEDIUM',
           descriptions: [
             {
               content:
@@ -42,15 +40,39 @@ const project: IProject.Payload = {
         },
         {
           content: '채팅 비즈니스 로직 개발',
+          weight: 'MEDIUM',
           descriptions: [
             {
-              content:
-                '사용자 입/퇴장 실시간 알림, 귓속말, 비공개 방 생성 등의 채팅 비즈니스 로직을 구현하였습니다. 실시간으로 사용자가 입장하거나 퇴장할 때 알림을 제공하며, 사용자는 귓속말을 통해 다른 사용자에게 개인 메시지를 보낼 수 있으며, 공개/비공개 채팅방을 선택할 수 있습니다.',
+              content: '사용자 입/퇴장 알림',
+              descriptions: [
+                {
+                  content:
+                    '사용자가 입장 또는 퇴장할 때 서버에서 해당 정보를 감지하고, 모든 참여자에게 실시간으로 알림을 보냅니다.',
+                },
+              ],
+            },
+            {
+              content: '귓속말',
+              descriptions: [
+                {
+                  content:
+                    '귓속말을 통해 해당 채팅방 내 특정 사용자에게 개인 메시지를 보낼 수 있습니다.',
+                },
+              ],
+            },
+            {
+              content: '채팅방 생성',
+              descriptions: [
+                {
+                  content: '사용자가 지역을 선택하여 공개 또는 비공개 채팅방을 생성할 수 있습니다.',
+                },
+              ],
             },
           ],
         },
         {
           content: '데이터베이스 연동 및 관리',
+          weight: 'MEDIUM',
           descriptions: [
             {
               content:
@@ -133,7 +155,7 @@ const project: IProject.Payload = {
       title: '가상의 Entertainment Company',
       startedAt: '23-06-07',
       endedAt: '23-07-10',
-      where: '[개인 프로젝트]',
+      where: '개인 프로젝트 [아티스트 소개/게시판/로그인/회원가입 등 풀스택 개발]',
       descriptions: [
         {
           content: 'http://www.riss.kr/link?id=T14771241',
@@ -141,12 +163,8 @@ const project: IProject.Payload = {
             'https://user-images.githubusercontent.com/137694287/270162201-967fc049-04ba-41c9-b871-0c795b8911d4.gif',
         },
         {
-          content:
-            '[회사 소개 / 아티스트 소개 / 게시판 / 오디션 지원 / 로그인 / 회원가입 등 풀스택 개발]',
-          weight: 'MEDIUM',
-        },
-        {
           content: '웹 페이지 UI/UX 디자인 구현',
+          weight: 'MEDIUM',
           descriptions: [
             {
               content:
@@ -160,6 +178,7 @@ const project: IProject.Payload = {
         },
         {
           content: '게시판 구현',
+          weight: 'MEDIUM',
           descriptions: [
             {
               content:
@@ -172,6 +191,7 @@ const project: IProject.Payload = {
         },
         {
           content: '인증 및 사용자 관리',
+          weight: 'MEDIUM',
           descriptions: [
             {
               content:
@@ -181,6 +201,7 @@ const project: IProject.Payload = {
         },
         {
           content: '설계 아키텍처 ',
+          weight: 'MEDIUM',
           descriptions: [
             {
               content:
