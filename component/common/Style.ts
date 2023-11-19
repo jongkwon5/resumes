@@ -39,6 +39,8 @@ export const Style: Record<TStyleKey, CSSProperties> = {
   sign: {
     fontFamily: "'Parisienne', cursive",
     fontSize: '1.5em',
+    marginTop: '2em',
+    marginBottom: '1em',
   },
 
   profileImg: {
