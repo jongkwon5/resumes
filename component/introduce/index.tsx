@@ -1,8 +1,6 @@
-import { Row, Col, Badge } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import { PropsWithChildren } from 'react';
-import { DateTime } from 'luxon';
 import { Style } from '../common/Style';
-import Util from '../common/Util';
 import { IIntroduce } from './IIntroduce';
 import { PreProcessingComponent } from '../common/PreProcessingComponent';
 
@@ -18,11 +16,6 @@ export const Introduce = {
 };
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
-  const latestUpdated = DateTime.fromFormat(
-    payload.latestUpdated,
-    Util.LUXON_DATE_FORMAT.YYYY_LL_DD,
-  );
-
   return (
     <div className="mt-5">
       <Row>
@@ -37,12 +30,6 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
             <p>{payload.content2}</p>
             <h5> {payload.top3}</h5>
             <p>{payload.content3}</p>
-            <p className="text-right">
-              <small>Latest Updated</small>{' '}
-              <Badge color="secondary">
-                {`${latestUpdated.toFormat(Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD)} `}
-              </Badge>
-            </p>
             <p className="text-right" style={Style.sign}>
               {payload.sign}
             </p>

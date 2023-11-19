@@ -9,6 +9,9 @@ const pl: ISkill.Skill = {
     {
       title: 'Spring',
     },
+    {
+      title: 'JPA',
+    },
   ],
 };
 
@@ -50,6 +53,9 @@ const tool: ISkill.Skill = {
     },
     {
       title: 'Tomcat',
+    },
+    {
+      title: 'Notion',
     },
   ],
 };

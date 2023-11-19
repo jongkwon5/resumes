@@ -141,7 +141,10 @@ const project: IProject.Payload = {
           content: '[Skill Keywords]',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Java(JDK 11.0.18), Spring(5.0.7), MySQL(8.0.21), JavaScript' },
+            {
+              content:
+                'Java(JDK 11.0.18), Spring(5.0.7), MySQL(8.0.21), MyBatis(3.3.1), JavaScript',
+            },
           ],
         },
         {
@@ -253,7 +256,10 @@ const project: IProject.Payload = {
           content: '[Skill Keywords]',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Java(JDK 11.0.18), Spring(5.0.7), MySQL(8.0.21), JavaScript' },
+            {
+              content:
+                'Java(JDK 11.0.18), Spring(5.0.7), MySQL(8.0.21), MyBatis(3.3.1), JavaScript',
+            },
           ],
         },
         {
