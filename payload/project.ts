@@ -177,6 +177,10 @@ const project: IProject.Payload = {
               content:
                 'Swiper API, Kakao 지도 API, fullPage.js를 사용하여 웹 페이지의 시각적 효과를 향상하였습니다.',
             },
+            {
+              content:
+                'Slick.js를 사용하여 마우스로 버튼을 누르거나 드래그할 때 컨텐츠(영상 및 이미지)가 자연스럽게 변경되도록 구현하였습니다.',
+            },
           ],
         },
         {
@@ -217,11 +221,11 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: 'AJAX를 통한 댓글 수정 및 삭제 기능',
+              content: 'AJAX 댓글 수정 기능 오류',
               descriptions: [
                 {
                   content:
-                    '문제 : 댓글 수정 및 삭제 기능에서 AJAX를 활용하여 비동기적으로 처리할 때, 정상적으로 동작하지 않는 문제가 발생했습니다.',
+                    '문제 : 댓글 수정 기능에서 AJAX를 활용하여 비동기적으로 처리할 때, 정상적으로 동작하지 않는 문제가 발생했습니다.',
                 },
                 {
                   content:

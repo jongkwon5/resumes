@@ -43,7 +43,7 @@ const tool: ISkill.Skill = {
       title: 'Git/Github',
     },
     {
-      title: 'VScode',
+      title: 'Notion',
     },
     {
       title: 'Eclipse',
@@ -55,7 +55,7 @@ const tool: ISkill.Skill = {
       title: 'Tomcat',
     },
     {
-      title: 'Notion',
+      title: 'VScode',
     },
   ],
 };
