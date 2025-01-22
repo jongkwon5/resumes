@@ -3,7 +3,6 @@ import { lastestUpdatedAt } from '../package.json';
 
 const introduce: IIntroduce.Payload = {
   disable: false,
-
   top1: '협업과 소통으로 성장하는 개발자',
   top2: '배움과 도전에 주저하지 않는 개발자',
   top3: '유연성과 적응력을 갖춘 개발자',

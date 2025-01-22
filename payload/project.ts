@@ -6,7 +6,7 @@ const project: IProject.Payload = {
     {
       title: '국립금오공과대학교 종합정보시스템 웹 개발',
       startedAt: '24-06-23',
-      endedAt: '25-02-22',
+      endedAt: '25-01-22',
       where: '(주)아카넷 서울지사',
       descriptions: [
         {
